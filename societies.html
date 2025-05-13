@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Societies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .society-card {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #ffffff;
+            width: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 120px;
+        }
+        .card a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .card a:hover {
+            background-color: #f4f4f4;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .nav-link {
+            font-size: 16px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #e8f5e9;
+            border-radius: 5px;
+        }
+        .nav-link:hover {
+            background-color: #c8e6c9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a class="nav-link" href="dashboard.html">Dashboard</a>
+            <a class="nav-link" href="index.html">Back to Login</a>
+        </div>
+        
+        <h1>Student Societies</h1>
+        <div class="society-card">
+            <div class="card">
+                <img src="tech.jpg">
+                <a href="Techinfo.html">Tech Society</a>
+            </div>
+            <div class="card">
+                <img src="cultural.jpg">
+                <a href="Culturalinfo.html">Cultural Society</a>
+            </div>
+            <div class="card">
+                <img src="sport.jpg">
+                <a href="Sportsinfo.html">Sports Society</a>
+            </div>
+            <div class="card">
+                <img src="literary.jpg">
+                <a href="Literaryinfo.html">Literary Society</a>
+            </div>
+            <div class="card">
+                <img src="foodimage.jpg">
+                <a href="Food.html">Food Society</a>
+            </div>
+            <div class="card">
+                <img src="fashionimage.jpg">
+                <a href="Fashion.html">Fashion Society</a>
+            </div>
+            <div class="card">
+                <img src="photoimage.jpg">
+                <a href="Photography.html">Photography Society</a>
+            </div>
+            <div class="card">
+                <img src="animalplant.jpg">
+                <a href="AnimalPlant.html">Animal & Plant Welfare Society</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
